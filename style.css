@@ -10,7 +10,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #eeaf36;;
+    background-color: #eeaf36;
+    background-image: url('images/characters.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .container {
     position: relative;
