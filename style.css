@@ -48,8 +48,8 @@ h2 {
 }
 
 .game {
-    width: 440px;
-    height: 440px;
+    width: 430px;
+    height: 430px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -66,5 +66,25 @@ h2 {
     align-items: center;
     font-size: 3em;
     background-color: #fff;
+    transform: rotateY(180deg);
     transition: 0.25s;
+}
+
+.item.boxOpen{
+    transform: rotateY(0deg);
+}
+
+.item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:#209d7b;
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+
+.boxOpen:after {
+    transform: rotateY(180deg);
+
 }
