@@ -1,10 +1,31 @@
-const emojis = ["👾", "👾", "🤠", "🤠", "😈", "😈", "🤡", "🤡", "🤖", "🤖", "👺", "👺", "💅", "💅", "💀", "💀"];
-var shuffle_emojis = emojis.sort(() => (Math.random() > 0.5) ? 1 : -1);
+const characters = [
+    'images/boo.png',
+    'images/boo.png',
+    'images/bowser.png',
+    'images/bowser.png', 
+    'images/donkey-kong.png',
+    'images/donkey-kong.png',
+    'images/luigi.png',
+    'images/luigi.png',
+    'images/peach.png', 
+    'images/peach.png',
+    'images/toad.png', 
+    'images/toad.png', 
+    'images/waluigi.png',
+    'images/waluigi.png',
+    'images/yoshi.png',
+    'images/yoshi.png'
+];
+var shuffle_characters = characters.sort(() => (Math.random() > 0.5) ? 1 : -1);
 
-for (var i = 0; i < emojis.length; i++) {
+for (var i = 0; i < characters.length; i++) {
     let box = document.createElement('div');
     box.className = 'item';
-    box.innerHTML = shuffle_emojis[i];
+
+    // new
+    let img = document.createElement('img');
+    img.src = shuffle_characters[i]
+    box.appendChild(img);
 
     box.onclick = function () {
         this.classList.add('boxOpen');
@@ -18,8 +39,8 @@ for (var i = 0; i < emojis.length; i++) {
                     document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen');
                     document.querySelectorAll('.boxOpen')[0].classList.remove('boxOpen');
 
-                    if (document.querySelectorAll('.boxMatch').length == emojis.length) {
-                        alert('win');
+                    if (document.querySelectorAll('.boxMatch').length == characters.length) {
+                        alert('CONGRATULATIONS!!🎉🎉🎉🎉🎉🎉');
                     }
                 } else {
                     document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen');
