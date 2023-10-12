@@ -40,7 +40,7 @@ for (var i = 0; i < characters.length; i++) {
                     document.querySelectorAll('.boxOpen')[0].classList.remove('boxOpen');
 
                     if (document.querySelectorAll('.boxMatch').length == characters.length) {
-                        alert('CONGRATULATIONS!!🎉🎉🎉🎉🎉🎉');
+                        alert('CONGRATULATIONS!!🎉🎉🎉🎉🎉');
                     }
                 } else {
                     document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen');
