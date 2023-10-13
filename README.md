@@ -37,9 +37,9 @@ Hello there! Welcome to the Mario themed Memory Game! This is a simple game buil
 
 ## Preview
 
-<img src="https://github.com/aisha-png/f-c-game/assets/67974517/1646414a-6bf4-4f76-a95b-0d20b0b71e79" width="325">
-<img src="https://github.com/aisha-png/f-c-game/assets/67974517/54aa8c03-0874-4538-8d63-63dd75b6e3d2" width="325">
-<img src="https://github.com/aisha-png/f-c-game/assets/67974517/8d2adcc8-31a6-4711-9ab2-3746e4d1c7e4" width="325">
+<img src="https://github.com/aisha-png/f-c-game/assets/67974517/1646414a-6bf4-4f76-a95b-0d20b0b71e79" width="329">
+<img src="https://github.com/aisha-png/f-c-game/assets/67974517/54aa8c03-0874-4538-8d63-63dd75b6e3d2" width="329">
+<img src="https://github.com/aisha-png/f-c-game/assets/67974517/8d2adcc8-31a6-4711-9ab2-3746e4d1c7e4" width="329">
 
 ## Contributing
 
