@@ -9,12 +9,12 @@ const characters = [
     'images/luigi.png',
     'images/peach.png', 
     'images/peach.png',
-    'images/toad.png', 
-    'images/toad.png', 
     'images/waluigi.png',
     'images/waluigi.png',
     'images/yoshi.png',
-    'images/yoshi.png'
+    'images/yoshi.png',
+    'images/mario.png',
+    'images/mario.png'
 ];
 var shuffle_characters = characters.sort(() => (Math.random() > 0.5) ? 1 : -1);
 
