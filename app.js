@@ -43,7 +43,8 @@ for (var i = 0; i < characters.length; i++) {
                         alert('CONGRATULATIONS!!🎉🎉🎉🎉🎉');
                         // confetti_effect();
                     }
-                } else {
+                } 
+                else {
                     document.querySelectorAll('.boxOpen')[1].classList.remove('boxOpen');
                     document.querySelectorAll('.boxOpen')[0].classList.remove('boxOpen');
                 }
