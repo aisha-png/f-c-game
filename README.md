@@ -8,7 +8,7 @@ Hello there! Welcome to the Mario themed Memory Game! This is a simple game buil
    - Open your terminal and run the following command to clone the repository to your local machine: (this works if you have SSH Key)
 
      ```bash
-     git@github.com:aisha-png/f-c-game.git
+     git clone https://github.com/aisha-png/f-c-game.git
      ```
 
 2. **Navigate to the Project:**
